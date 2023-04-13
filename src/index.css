@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.blue-1{
+background-color: #145369 ;
+}
+
+/* // #145369 */
+/* // rgba(22, 46, 128) */
+/* // rgba(82,82,102) */
+/* // rgba(255,102,102) */
+.head{
+background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url('/assets/pexels-johannes-plenio-1103970.jpg');
+background-position: center;
+background-size: cover;
+}
+
+main h1{
+  /* background-color: #26e40d9a; */
+  font-family: 'Nanum Myeongjo', serif;
+}
+
+.super{
+  background:linear-gradient(rgba(156, 197, 90, 0.164),rgba(60, 230, 26, 0.24)),url('/assets/pexels-essow-936722.jpg');
+  background-position: center;
+  background-size: cover;
+}
